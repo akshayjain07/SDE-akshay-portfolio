@@ -139,7 +139,7 @@ const experiences = [
     company_name: "WebD Domain",
     icon: shaurya_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2023 - Jan 2024",
     points: [
       "Led the creation of Shaurya Club's sports fest website, 'Samar', using React, Three.js, and Tailwind CSS, deploying a 3D model for an engaging user experience.",
       "Demonstrated effective team leadership, assigning tasks to juniors, fostering skill development, and contributing to successful project completion.",
@@ -153,7 +153,7 @@ const experiences = [
     company_name: "WebD Domain",
     icon: rajbhasha_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Ongoing",
     points: [
       "Drove backend development for the Rajbhasha Club's website, implementing a robust forum with interactive features and efficient certificate issuance through face recognition.",
       "Spearheaded the integration of machine learning programs, enhancing the website's functionality and user experience.",
