@@ -14,26 +14,51 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
+    // <VerticalTimelineElement
+    //   contentStyle={{
+    //     background: "#1d1836",
+    //     color: "#fff",
+    //   }}
+    //   contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+    //   date={experience.date}
+    //   iconStyle={{ background: experience.iconBg }}
+    //   icon={
+    //     <div className='flex justify-center items-center w-full h-full'>
+    //       <img
+    //         src={experience.icon}
+    //         alt={experience.company_name}
+    //         className='w-[60%] h-[60%] object-contain'
+    //       />
+    //     </div>
+    //   }
+    // >
+
     <VerticalTimelineElement
-      contentStyle={{
-        background: "#1d1836",
-        color: "#fff",
-      }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
-          />
-        </div>
-      }
+  contentStyle={{
+    background: "#1d1836",
+    color: "#fff",
+  }}
+  contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+  date={experience.date}
+  iconStyle={{ background: experience.iconBg }}
+  icon={
+    <button
+      className='flex justify-center items-center w-full h-full'
+      style={{ border: 'none', background: 'transparent', cursor: 'pointer' }}
+      onClick={() => window.open(experience.link, '_blank')}
     >
+      <img
+        src={experience.icon}
+        alt={experience.company_name}
+        className='w-[60%] h-[60%] object-contain'
+      />
+    </button>
+  }
+>
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <button className='text-white text-[24px] font-bold' 
+        style={{ border: 'none', background: 'transparent', cursor: 'pointer' }}
+        onClick={() => window.open(experience.link, '_blank')}>{experience.title}</button>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}

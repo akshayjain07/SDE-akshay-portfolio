@@ -49,6 +49,8 @@ import newsapp_project from "./newsapp.jpg";
 import portfolio_project from "./portfolio.jpg";
 import attendance_project from "./attendance.jpg";
 
+import shaurya_logo from "./shaurya.png";
+import rajbhasha_logo from "./rajbhasha.png";
 
 export {
   logo,
@@ -96,4 +98,6 @@ export {
   inotebook_project,
   newsapp_project,
   portfolio_project,
+  shaurya_logo,
+  rajbhasha_logo,
 };

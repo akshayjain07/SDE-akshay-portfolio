@@ -39,7 +39,9 @@ import {
   portfolio_project,
   inotebook_project,
   newsapp_project,
-  attendance_project
+  attendance_project,
+  shaurya_logo,
+  rajbhasha_logo
 } from "../assets";
 
 export const navLinks = [
@@ -133,56 +135,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Shaurya Committee",
+    company_name: "WebD Domain",
+    icon: shaurya_logo,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the creation of Shaurya Club's sports fest website, 'Samar', using React, Three.js, and Tailwind CSS, deploying a 3D model for an engaging user experience.",
+      "Demonstrated effective team leadership, assigning tasks to juniors, fostering skill development, and contributing to successful project completion.",
+      "Managed and version-controlled the project efficiently on GitHub.",
+      "Strengthened networking with seniors, enhancing web development skills.",
     ],
+    link:"https://samar2k22.netlify.app/",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Rajbhasha Club",
+    company_name: "WebD Domain",
+    icon: rajbhasha_logo,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Drove backend development for the Rajbhasha Club's website, implementing a robust forum with interactive features and efficient certificate issuance through face recognition.",
+      "Spearheaded the integration of machine learning programs, enhancing the website's functionality and user experience.",
+      "Demonstrated expertise in backend systems, ensuring seamless data processing and storage.",
+      "Contributed to a collaborative and innovative environment, leveraging backend and machine learning skills for a dynamic web platform.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    link:"https://samar2k22.netlify.app/",
   },
 ];
 
@@ -238,7 +216,7 @@ const projects = [
   {
     name: "News App",
     description:
-      "Leveraged Python libraries (Numpy, Pandas, Matplotlib, Seaborn) to analyze last year's Diwali sales data for a shop. Presented actionable insights that propelled this year's Diwali sales.",
+      "Designed and developed a React-powered news application that efficiently retrieves real-time updates from external APIs. The app prioritizes a seamless user experience through an user-friendly interface, making news browsing effortless and engaging.",
     tags: [
       {
         name: "react",
@@ -259,7 +237,7 @@ const projects = [
   {
     name: "Cloud Note App",
     description:
-      "Compiled a comprehensive 2022 annual sales report for Vrinda Store using MS Excel. Conducted data cleaning, constructed pivot tables and charts, and developed a dashboard for valuable insights, driving sales growth in 2023.",
+      "Developed a MERN stack cloud note app for seamless cross-device note storage. Utilized MongoDB, Express.js, React, and Node.js to ensure secure and responsive functionality. Empowering users with easy and efficient note management.",
     tags: [
       {
         name: "react",
@@ -270,7 +248,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "mongoDB",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
@@ -280,7 +258,7 @@ const projects = [
   {
     name: "Personal Portfolio",
     description:
-      "Engineered an online sales dashboard for Madhav Store, facilitating nationwide sales tracking and analysis. The intuitive interface delivers key insights, fostering data-driven decision-making for optimal business performance.",
+      "Crafted a dynamic personal portfolio website using React, incorporating advanced libraries such as Three.js for immersive experiences and react-tilt for interactive elements. Integrated emailjs for efficient communication.",
     tags: [
       {
         name: "threejs",
@@ -301,7 +279,7 @@ const projects = [
   {
     name: "Attendance App",
     description:
-      "Applied SQL to analyze a vast music playlist database, extracting valuable insights for business growth. Addressed critical questions, aiding the store in understanding customer preferences, optimizing inventory, and making informed decisions for holistic business development.",
+      "Engineered a machine learning-based attendance app, seamlessly storing data in Excel for efficient management. Demonstrates proficiency in merging advanced technologies for streamlined and accurate attendance tracking.",
     tags: [
       {
         name: "python",
