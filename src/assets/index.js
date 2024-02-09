@@ -44,6 +44,11 @@ import price_tracker_project from "./price-tracker.jpg";
 import python_project from "./python.jpg";
 import sql_project from "./sql.jpg";
 
+import inotebook_project from "./inotebook.jpg";
+import newsapp_project from "./newsapp.jpg";
+import portfolio_project from "./portfolio.jpg";
+import attendance_project from "./attendance.jpg";
+
 
 export {
   logo,
@@ -85,6 +90,10 @@ export {
   excel_project,
   python_project,
   powerbi_project,
-  price_tracker_project,
   sql_project,
+  price_tracker_project,
+  attendance_project,
+  inotebook_project,
+  newsapp_project,
+  portfolio_project,
 };

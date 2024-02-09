@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Data Analyst specializing in Python, SQL, Excel and PowerBI.
-        My expertise lies in extracting insights from diverse datasets to drive informed decision-making.
-        I'm dedicated to creating impactful visualizations and reports to communicate data-driven insights effectively.
-        Let's collaborate to transform your ideas into actionable solutions.
+        I'm a proficient Web Developer with a focus on React, Express, Node and MongoDB.
+        My skills revolve around creating dynamic and user-friendly websites, emphasizing responsive design 
+        and seamless functionality. I am committed to translating your concepts into effective online solutions
+        through collaborative development. Let's work together to bring your ideas to life on the web.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

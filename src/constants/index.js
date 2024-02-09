@@ -35,7 +35,11 @@ import {
   excel_project,
   python_project,
   sql_project,
-  price_tracker_project
+  price_tracker_project,
+  portfolio_project,
+  inotebook_project,
+  newsapp_project,
+  attendance_project
 } from "../assets";
 
 export const navLinks = [
@@ -55,48 +59,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data Analyst",
+    title: "Frontend Development",
     icon: web,
   },
   {
-    title: "Business Analyst",
+    title: "Backend Development",
     icon: mobile,
   },
   {
-    title: "Data Scienist",
+    title: "Machine Learning",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Data Analyst",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: powerbi,
-  },
-  {
-    name: "HTML 5",
-    icon: sql,
-  },
-  {
-    name: "HTML 5",
-    icon: excel,
-  },
-  {
-    name: "HTML 5",
-    icon: python,
-  },
-  {
-    name: "HTML 5",
-    icon: jupyter,
-  },
-  {
-    name: "HTML 5",
-    icon: powerpoint,
-  },
   {
     name: "HTML 5",
     icon: html,
@@ -124,6 +104,30 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "redux",
+    icon: redux,
+  },
+  {
+    name: "tailwind",
+    icon: tailwind,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
 ];
 
@@ -185,7 +189,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Akshay proved me wrong.",
     name: "Neha Singh",
     designation: "CFO",
     company: "Acme Co",
@@ -193,7 +197,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Akshay does.",
     name: "Akash Kumar",
     designation: "COO",
     company: "DEF Corp",
@@ -201,7 +205,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Akshay optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Yaseen Khan",
     designation: "CTO",
     company: "456 Enterprises",
@@ -232,79 +236,79 @@ const projects = [
     source_code_link: "https://github.com/akshayjain07/price-tracker",
   },
   {
-    name: "Diwali Sales of a shop",
+    name: "News App",
     description:
       "Leveraged Python libraries (Numpy, Pandas, Matplotlib, Seaborn) to analyze last year's Diwali sales data for a shop. Presented actionable insights that propelled this year's Diwali sales.",
     tags: [
       {
-        name: "numpy",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "pandas",
+        name: "api fetching",
         color: "green-text-gradient",
       },
-      {
-        name: "matplotlib",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "matplotlib",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: python_project,
-    source_code_link: "https://github.com/akshayjain07/python-data-analysis",
+    image: newsapp_project,
+    source_code_link: "https://github.com/akshayjain07/news-app",
   },
   {
-    name: "Store Annual Sales Report",
+    name: "Cloud Note App",
     description:
       "Compiled a comprehensive 2022 annual sales report for Vrinda Store using MS Excel. Conducted data cleaning, constructed pivot tables and charts, and developed a dashboard for valuable insights, driving sales growth in 2023.",
     tags: [
       {
-        name: "excel",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "data cleaning",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "pivot table",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: excel_project,
-    source_code_link: "https://github.com/akshayjain07/excel-data-analysis",
+    image: inotebook_project,
+    source_code_link: "https://github.com/akshayjain07/inotebook",
   },
   {
-    name: "HR Analytics Dashboard",
+    name: "Personal Portfolio",
     description:
       "Engineered an online sales dashboard for Madhav Store, facilitating nationwide sales tracking and analysis. The intuitive interface delivers key insights, fostering data-driven decision-making for optimal business performance.",
     tags: [
       {
-        name: "powerbi",
+        name: "threejs",
         color: "blue-text-gradient",
       },
       {
-        name: " data-driven decision-making",
+        name: "react-tilt",
         color: "green-text-gradient",
       },
-      // {
-      //   name: "css",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
     ],
-    image: powerbi_project,
-    source_code_link: "https://github.com/akshayjain07/powerBI-data-analysis",
+    image: portfolio_project,
+    source_code_link: "https://github.com/akshayjain07/SDE-akshay-portfolio",
   },
   {
-    name: "Music Store Data Analysis",
+    name: "Attendance App",
     description:
       "Applied SQL to analyze a vast music playlist database, extracting valuable insights for business growth. Addressed critical questions, aiding the store in understanding customer preferences, optimizing inventory, and making informed decisions for holistic business development.",
     tags: [
       {
-        name: "sql",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "database",
+        name: "machineLearning",
         color: "green-text-gradient",
       },
       // {
@@ -312,8 +316,8 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: sql_project,
-    source_code_link: "https://github.com/akshayjain07/sql-project",
+    image: attendance_project,
+    source_code_link: "https://github.com/akshayjain07/face-recognition-attendance-app",
   },
 ];
 
